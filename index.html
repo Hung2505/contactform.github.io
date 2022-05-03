@@ -101,6 +101,7 @@
 
 .left-col {
   width: 45vw;
+
   height: 100%;
   background-image: url("contactus.png");
   background-size: cover;
@@ -194,6 +195,7 @@ button {
   outline: none;
   cursor: pointer;
 }
+
 
 input:hover, textarea:hover, button:hover {
   opacity: 0.5;
@@ -365,11 +367,22 @@ input:checked + .slider:before {
                 <label for="email">Email </label>
             <input type="email" id="email" name="email" placeholder="Cho mình email của bạn nhé^^" required>
                 <label for="message">SĐT hoặc link FB/ INSTAGRAM/ ZALO</label>
-            <input type="SĐT" id="SĐT" name="SĐT" placeholder="Cho mình SĐT hoặc đường link Fb/ Instagram/ ZALO của bạn nhé^^" required>
+            <input type="SĐT" id="SĐT" name="SĐT" placeholder="Cho mình SĐT hoặc đường link Facebook/ Instagram/ Zalo của bạn nhé^^" required>
             <!-- xóa tạm thời -->
                 <!-- <label for="message">Message</label>
             <textarea rows="6" placeholder="Your Message" id="message" name="message" required></textarea> -->
                 <!--<a href="javascript:void(0)">--><button type="submit" id="submit" name="submit">Send</button><!--</a>-->
+                <button type="submit" id="submit" name="submit"><a href="https://wordpress.com/view/4tboutique.wordpress.com" style="text-transform: uppercase;
+                  font-weight: 300;
+                  background: var(--button-color);
+                  color: var(--bg-color);
+                  width: 10rem;
+                  height: 2.25rem;
+                  border: none;
+                  border-radius: 2px;
+                  outline: none;
+                  cursor: pointer;
+                  text-decoration: none;">Back</a></button>
             
           </form>
           <div id="error"></div>
